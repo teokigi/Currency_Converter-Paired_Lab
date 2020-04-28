@@ -1,6 +1,7 @@
 <template lang="html">
   <div>
-    <select v-model="selectedRate" v-on:select="appendSelectedCurrency">
+      <label for="Country">Select country of conversion</label>
+    <select v-model="selectedRate" v-on:change="appendSelectedCurrency" name="Country">
       <option v-for="(rate, index) in rates" v-bind:value="rate">{{index}}: {{rate}}</option>
     </select>
   </div>
