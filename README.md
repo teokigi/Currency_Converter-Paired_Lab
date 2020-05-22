@@ -1,4 +1,4 @@
-# currency-converter
+# currency converter
 
 ## Project setup
 ```
@@ -17,3 +17,7 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## summary
+
+Paired Lab experience, in creating a simple currency conversion website.
